@@ -1,12 +1,12 @@
 // Access API key
 // For GitHub: use placeholder to hide the real key
 // For CodeSandbox: set WEATHER_API_KEY as environment variable
-const apiKey = process.env.WEATHER_API_KEY || "YOUR_API_KEY";
+const apiKey = "YOUR_API_KEY";
 
 // DOM Elements
-const cityInput = document.getElementById("city-input");
-const searchBtn = document.getElementById("search-btn");
-const weatherDisplay = document.getElementById("weather-display");
+const cityInput = document.getElementById("cityInput");
+const searchBtn = document.getElementById("getWeatherBtn");
+const weatherDisplay = document.getElementById("weatherResult");
 
 // Fetch weather
 async function getWeather(city) {
