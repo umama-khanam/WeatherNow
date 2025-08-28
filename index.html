@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WeatherNow</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <h1>WeatherNow</h1>
-    <input type="text" id="city-input" placeholder="Enter city name">
-    <button id="search-btn">Search</button>
-    <div id="weather-display"></div>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherNow</title>
 
-  <script src="script.js"></script>
-</body>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Your content goes here -->
+    <div class="weather-container">
+      <h1>WeatherNow</h1>
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="getWeatherBtn">Get Weather</button>
+
+      <div id="weatherResult">
+        <!-- Weather info will appear here -->
+      </div>
+    </div>
+
+    <!-- Link to your JS file, placed before body ends -->
+    <script src="script.js"></script>
+  </body>
 </html>
