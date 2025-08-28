@@ -6,7 +6,7 @@ WeatherNow is a simple web application that allows users to check the **current 
 
 ## Live Demo
 You can see the project live here:  
-[Open Live Demo](https://codesandbox.io/s/your-sandbox-link)  
+[Open Live Demo] https://mxfynk.csb.app/
 
 > The live demo uses a hidden API key, so it works fully without exposing the key.
 
